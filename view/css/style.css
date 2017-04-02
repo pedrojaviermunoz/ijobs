@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 700px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 190px;
+    background: linear-gradient(orange, transparent);
+}
+.menu-in-1{
+    width: 49%;
+}
+.menu{
+    width: 49%;
+    float: right;
+    margin-top: -14%;
+}
+.menu{
+    display: block;
+  
+}
+ul{
+    display: block;
+    list-style: none;
+    text-decoration:none;
+}
+li{
+  display: inline-block;
+  margin: auto;
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+#logo-perfil{
+    cursor: pointer;
+}
+.logo-index{
+    margin-top: 5%;
+    margin-left: 6%;
+    cursor: pointer;
+}
+.galeria{
+    width: 100%;
+    height: 100%;
+}
+.galeria img{
+    width: 100%;
+    height: 100%;
+}
+.quienes-somos{
+    width: 100%;
+    height: 700px;
+}
+.quienes{
+    width: 87%;
+    height: 100%;
+}
+.principal{
+    background-image: url(../img/fondoGrande.png)
+}
+.corbata{
+    position: fixed;
+    margin-left: -20%;
+    margin-top: 12%
+}
+.menu-principal{
+    width: 25%;
+    float: right;
+    position:relative;
+    margin-top: -10%;
+    margin-right: 10%;
+}
+.photo-perfil{
+    width: 7%;
+    height: 50%;
+    float: right;
+    border-radius: 100px;
+    margin-top: -13%;
+    margin-right: 4%;
+    cursor: pointer;
+}
+.photo-perfil img{
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px 5px;
+}
+#contacto{
+    width: 100%;
+    height: 700px;
+}
+.foto-contacto{
+    float: right;
+    margin-top: 10%;
+}
